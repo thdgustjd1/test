@@ -12,6 +12,8 @@
 using namespace std;
 
 int visited[100004], arr[100004], t, n, answer;
+//hihi
+
 
 void findcycle(int now) {
     visited[now] = -1;
