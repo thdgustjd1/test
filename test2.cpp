@@ -38,11 +38,10 @@ void cycle(int start, int now) {
     visited[now] = 1;
     if (visited[arr[now]] == 0) {
         cycle(start, arr[now]);
-    }
-    else if (visited[arr[now]] == -1 || visited[arr[now]] == -2) {
-        tail(start);
         return;
+        //dasdfsasadfasdfsdaf
     }
+    
     else { //1¿œ∂ß
         findcycle(now);
         if (arr[now] != start) {
